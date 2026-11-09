@@ -1,0 +1,12 @@
+{
+  "region": "GB",
+  "chartDate": "2026-11-08",
+  "sourceName": "Previously curated dated snapshot — awaiting automatic verification",
+  "sourceUrl": "https://ads.tiktok.com/creative/creativeCenter/trends?region=GB",
+  "songs": [
+    {"title": "All I Want for Christmas Is You", "artist": "Mariah Carey"},
+    {"title": "Housewife", "artist": "Tate McRae"},
+    {"title": "Doja", "artist": "Central Cee"}
+  ],
+  "hashtags": ["#saturween", "#bonfirenight", "#november"]
+}
