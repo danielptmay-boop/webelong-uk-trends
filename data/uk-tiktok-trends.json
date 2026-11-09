@@ -1,12 +1,23 @@
 {
   "region": "GB",
-  "chartDate": "2026-11-08",
-  "sourceName": "Previously curated dated snapshot — awaiting automatic verification",
+  "chartDate": "2026-11-09",
+  "collectedAt": "2026-11-09T01:04:07.074328Z",
+  "sourceName": "UK TikTok hashtags and sampled Explore sounds via Apify",
   "sourceUrl": "https://ads.tiktok.com/creative/creativeCenter/trends?region=GB",
+  "songsRankingType": "sample",
   "songs": [
-    {"title": "All I Want for Christmas Is You", "artist": "Mariah Carey"},
-    {"title": "Housewife", "artist": "Tate McRae"},
-    {"title": "Doja", "artist": "Central Cee"}
+    {
+      "title": "No Type",
+      "artist": "Rae Sremmurd",
+      "tiktokUrl": "https://www.tiktok.com/search?q=No%20Type%20Rae%20Sremmurd"
+    }
   ],
-  "hashtags": ["#saturween", "#bonfirenight", "#november"]
+  "hashtags": [
+    "#bonfirenight",
+    "#fireworks",
+    "#bonfire",
+    "#sixthform",
+    "#homework",
+    "#exam"
+  ]
 }
