@@ -55,7 +55,7 @@ def sounds(rows):
     rows.sort(key=lambda r: -(float(r.get("videosInSample") or 0)))
     # Prefer discovered sounds that have a genuine TikTok post, so the
     # featured song can be embedded on the website when one is available.
-    rows.sort(key=lambda r: not bool(re.search(r"https://(?:www\\.)?tiktok\\.com/@[^/]+/video/\\d{15,25}", str(r.get("linkedVideoUrl") or ""))))
+    rows.sort(key=lambda r: not bool(re.search(r"https://(?:www\.)?tiktok\.com/@[^/]+/video/\d{15,25}", str(r.get("linkedVideoUrl") or ""))))
     result, seen = [], set()
     for r in rows:
         if r.get("isOriginal") is True:
