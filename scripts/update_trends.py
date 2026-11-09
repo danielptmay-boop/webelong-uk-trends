@@ -86,6 +86,16 @@ def main():
     tracks = sounds(collect(token, "sound"))
     if len(tags) < 3 or len(tracks) < MIN_SONGS:
         raise RuntimeError(f"Incomplete UK trends: {len(tracks)} songs and {len(tags)} hashtags; need at least {MIN_SONGS} songs and 3 hashtags. Previous feed remains unchanged.")
+    # Keep a previously verified video when the latest scrape has no new video.
+    video_track = next((x for x in tracks if x.get("tiktokVideoUrl")), None)
+    if not video_track and OUTPUT.exists():
+        try:
+            previous = json.loads(OUTPUT.read_text(encoding="utf-8"))
+            old = previous.get("featuredVideo")
+            if isinstance(old, dict) and re.search(r"https://(?:www\\.)?tiktok\\.com/@[^/]+/video/\\d{15,25}", str(old.get("tiktokVideoUrl", ""))):
+                video_track = old
+        except (ValueError, OSError):
+            pass
     date = datetime.now(ZoneInfo("Europe/London")).date().isoformat()
     data = {
         "region": "GB",
@@ -95,6 +105,7 @@ def main():
         "sourceUrl": "https://ads.tiktok.com/creative/creativeCenter/trends?region=GB",
         "songsRankingType": "sample",
         "songs": tracks,
+        "featuredVideo": video_track,
         "hashtags": tags
     }
     OUTPUT.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
