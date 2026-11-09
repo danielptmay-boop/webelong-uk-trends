@@ -1,15 +1,40 @@
 {
   "region": "GB",
   "chartDate": "2026-11-09",
-  "collectedAt": "2026-11-09T01:04:07.074328Z",
+  "collectedAt": "2026-11-09T01:13:44.077560Z",
   "sourceName": "UK TikTok hashtags and sampled Explore sounds via Apify",
   "sourceUrl": "https://ads.tiktok.com/creative/creativeCenter/trends?region=GB",
   "songsRankingType": "sample",
   "songs": [
     {
-      "title": "No Type",
-      "artist": "Rae Sremmurd",
-      "tiktokUrl": "https://www.tiktok.com/search?q=No%20Type%20Rae%20Sremmurd"
+      "title": "DOWNEY",
+      "artist": "sma$her & Svantesson",
+      "tiktokUrl": "https://www.tiktok.com/search?q=DOWNEY%20sma%24her%20%26%20Svantesson"
+    },
+    {
+      "title": "Ramalama (Bang Bang)",
+      "artist": "Róisín Murphy",
+      "tiktokUrl": "https://www.tiktok.com/search?q=Ramalama%20%28Bang%20Bang%29%20R%C3%B3is%C3%ADn%20Murphy"
+    },
+    {
+      "title": "نور الدرب",
+      "artist": "مجد الشرق",
+      "tiktokUrl": "https://www.tiktok.com/search?q=%D9%86%D9%88%D8%B1%20%D8%A7%D9%84%D8%AF%D8%B1%D8%A8%20%D9%85%D8%AC%D8%AF%20%D8%A7%D9%84%D8%B4%D8%B1%D9%82"
+    },
+    {
+      "title": "Betwannes Beek",
+      "artist": "Setrak Sarkissian",
+      "tiktokUrl": "https://www.tiktok.com/search?q=Betwannes%20Beek%20Setrak%20Sarkissian"
+    },
+    {
+      "title": "Coastline",
+      "artist": "Hollow Coves",
+      "tiktokUrl": "https://www.tiktok.com/search?q=Coastline%20Hollow%20Coves"
+    },
+    {
+      "title": "BAILA LENTO (Slowed)",
+      "artist": "sma$her & MC DA$ILVA",
+      "tiktokUrl": "https://www.tiktok.com/search?q=BAILA%20LENTO%20%28Slowed%29%20sma%24her%20%26%20MC%20DA%24ILVA"
     }
   ],
   "hashtags": [
