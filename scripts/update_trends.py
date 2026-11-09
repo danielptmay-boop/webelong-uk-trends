@@ -64,7 +64,12 @@ def sounds(rows):
         link = str(r.get("soundPlayUrl") or r.get("linkedVideoUrl") or "")
         if not link.startswith(("https://www.tiktok.com/", "https://tiktok.com/")):
             link = "https://www.tiktok.com/search?q=" + urllib.parse.quote(title + " " + artist)
-        result.append({"title": title, "artist": artist, "tiktokUrl": link})
+        video_url = str(r.get("linkedVideoUrl") or "")
+        video_match = re.search(r"https://(?:www\\.)?tiktok\\.com/@[^/]+/video/(\\d{15,25})(?:[/?#]|$)", video_url)
+        song = {"title": title, "artist": artist, "tiktokUrl": link}
+        if video_match:
+            song["tiktokVideoUrl"] = video_url
+        result.append(song)
         if len(result) == 6:
             break
     return result
