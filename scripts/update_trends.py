@@ -13,10 +13,11 @@ from zoneinfo import ZoneInfo
 ACTOR = "parsebird~tiktok-trends-scraper"
 BASE = f"https://api.apify.com/v2/acts/{ACTOR}/run-sync-get-dataset-items"
 OUTPUT = Path(__file__).resolve().parents[1] / "data" / "uk-tiktok-trends.json"
-MAX_ITEMS = 15
+MAX_ITEMS = 60
+MIN_SONGS = 5
 
 def collect(token, mode):
-    url = f"{BASE}?maxItems={MAX_ITEMS}&maxTotalChargeUsd=0.08&format=json&limit={MAX_ITEMS}"
+    url = f"{BASE}?maxItems={MAX_ITEMS}&maxTotalChargeUsd=0.25&format=json&limit={MAX_ITEMS}"
     body = json.dumps({
         "trendType": mode,
         "countryCode": "GB",
@@ -80,8 +81,8 @@ def main():
         raise RuntimeError("Missing APIFY_TOKEN; old feed remains unchanged")
     tags = hashtags(collect(token, "hashtag"))
     tracks = sounds(collect(token, "sound"))
-    if not tags or not tracks:
-        raise RuntimeError("Incomplete UK trends; old feed remains unchanged")
+    if len(tags) < 3 or len(tracks) < MIN_SONGS:
+        raise RuntimeError(f"Incomplete UK trends: {len(tracks)} songs and {len(tags)} hashtags; need at least {MIN_SONGS} songs and 3 hashtags. Previous feed remains unchanged.")
     date = datetime.now(ZoneInfo("Europe/London")).date().isoformat()
     data = {
         "region": "GB",
