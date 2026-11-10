@@ -1,49 +1,49 @@
 {
   "region": "GB",
-  "chartDate": "2026-11-09",
-  "collectedAt": "2026-11-09T07:11:15.270070Z",
+  "chartDate": "2026-11-10",
+  "collectedAt": "2026-11-10T06:53:21.406540Z",
   "sourceName": "UK TikTok hashtags and sampled Explore sounds via Apify",
   "sourceUrl": "https://ads.tiktok.com/creative/creativeCenter/trends?region=GB",
   "songsRankingType": "sample",
   "songs": [
     {
-      "title": "original sound - crazyest_s21",
-      "artist": "crazyest_s21",
-      "tiktokUrl": "https://www.tiktok.com/search?q=original%20sound%20-%20crazyest_s21%20crazyest_s21"
+      "title": "No Type",
+      "artist": "Rae Sremmurd",
+      "tiktokUrl": "https://www.tiktok.com/search?q=No%20Type%20Rae%20Sremmurd"
     },
     {
-      "title": "original sound - meoaw350",
-      "artist": "meoaw350",
-      "tiktokUrl": "https://www.tiktok.com/search?q=original%20sound%20-%20meoaw350%20meoaw350"
+      "title": "Housewife",
+      "artist": "Tate McRae",
+      "tiktokUrl": "https://www.tiktok.com/search?q=Housewife%20Tate%20McRae"
     },
     {
-      "title": "نور الدرب",
-      "artist": "مجد الشرق",
-      "tiktokUrl": "https://www.tiktok.com/search?q=%D9%86%D9%88%D8%B1%20%D8%A7%D9%84%D8%AF%D8%B1%D8%A8%20%D9%85%D8%AC%D8%AF%20%D8%A7%D9%84%D8%B4%D8%B1%D9%82"
+      "title": "no way for away",
+      "artist": "Linarta Sakazukinan",
+      "tiktokUrl": "https://www.tiktok.com/search?q=no%20way%20for%20away%20Linarta%20Sakazukinan"
     },
     {
-      "title": "original sound - cutie.piefifa",
-      "artist": "cutie.piefifa",
-      "tiktokUrl": "https://www.tiktok.com/search?q=original%20sound%20-%20cutie.piefifa%20cutie.piefifa"
+      "title": "Training Season (Live from the Royal Albert Hall)",
+      "artist": "Dua Lipa",
+      "tiktokUrl": "https://www.tiktok.com/search?q=Training%20Season%20%28Live%20from%20the%20Royal%20Albert%20Hall%29%20Dua%20Lipa"
     },
     {
-      "title": "original sound - fun_cat57",
-      "artist": "fun_cat57",
-      "tiktokUrl": "https://www.tiktok.com/search?q=original%20sound%20-%20fun_cat57%20fun_cat57"
+      "title": "Comedy Corridor",
+      "artist": "Finley Reed",
+      "tiktokUrl": "https://www.tiktok.com/search?q=Comedy%20Corridor%20Finley%20Reed"
     },
     {
-      "title": "original sound - Meow Cats",
-      "artist": "Meow Cats",
-      "tiktokUrl": "https://www.tiktok.com/search?q=original%20sound%20-%20Meow%20Cats%20Meow%20Cats"
+      "title": "Thinkin",
+      "artist": "Fbgfatslime",
+      "tiktokUrl": "https://www.tiktok.com/search?q=Thinkin%20Fbgfatslime"
     }
   ],
   "featuredVideo": null,
   "hashtags": [
     "#bonfirenight",
     "#fireworks",
-    "#bonfire",
+    "#piratetoken",
     "#sixthform",
-    "#homework",
-    "#exam"
+    "#schoolmemories",
+    "#homework"
   ]
 }
