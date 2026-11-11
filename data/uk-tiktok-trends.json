@@ -1,49 +1,49 @@
 {
   "region": "GB",
-  "chartDate": "2026-11-10",
-  "collectedAt": "2026-11-10T06:53:21.406540Z",
+  "chartDate": "2026-11-11",
+  "collectedAt": "2026-11-11T06:57:16.126248Z",
   "sourceName": "UK TikTok hashtags and sampled Explore sounds via Apify",
   "sourceUrl": "https://ads.tiktok.com/creative/creativeCenter/trends?region=GB",
   "songsRankingType": "sample",
   "songs": [
     {
-      "title": "No Type",
-      "artist": "Rae Sremmurd",
-      "tiktokUrl": "https://www.tiktok.com/search?q=No%20Type%20Rae%20Sremmurd"
+      "title": "BAILA LENTO (Slowed)",
+      "artist": "sma$her & MC DA$ILVA",
+      "tiktokUrl": "https://www.tiktok.com/search?q=BAILA%20LENTO%20%28Slowed%29%20sma%24her%20%26%20MC%20DA%24ILVA"
     },
     {
-      "title": "Housewife",
-      "artist": "Tate McRae",
-      "tiktokUrl": "https://www.tiktok.com/search?q=Housewife%20Tate%20McRae"
+      "title": "Funny laugh",
+      "artist": "Dj TikFyp",
+      "tiktokUrl": "https://www.tiktok.com/search?q=Funny%20laugh%20Dj%20TikFyp"
     },
     {
-      "title": "no way for away",
-      "artist": "Linarta Sakazukinan",
-      "tiktokUrl": "https://www.tiktok.com/search?q=no%20way%20for%20away%20Linarta%20Sakazukinan"
+      "title": "MONTAGEM INFERNIA (Slowed)",
+      "artist": "Artefxct",
+      "tiktokUrl": "https://www.tiktok.com/search?q=MONTAGEM%20INFERNIA%20%28Slowed%29%20Artefxct"
     },
     {
-      "title": "Training Season (Live from the Royal Albert Hall)",
-      "artist": "Dua Lipa",
-      "tiktokUrl": "https://www.tiktok.com/search?q=Training%20Season%20%28Live%20from%20the%20Royal%20Albert%20Hall%29%20Dua%20Lipa"
+      "title": "original sound - crazyest_s21",
+      "artist": "crazyest_s21",
+      "tiktokUrl": "https://www.tiktok.com/search?q=original%20sound%20-%20crazyest_s21%20crazyest_s21"
     },
     {
-      "title": "Comedy Corridor",
-      "artist": "Finley Reed",
-      "tiktokUrl": "https://www.tiktok.com/search?q=Comedy%20Corridor%20Finley%20Reed"
+      "title": "original sound - boy_toonz0.1",
+      "artist": "boy_toonz0.1",
+      "tiktokUrl": "https://www.tiktok.com/search?q=original%20sound%20-%20boy_toonz0.1%20boy_toonz0.1"
     },
     {
-      "title": "Thinkin",
-      "artist": "Fbgfatslime",
-      "tiktokUrl": "https://www.tiktok.com/search?q=Thinkin%20Fbgfatslime"
+      "title": "original sound - fun_cat57",
+      "artist": "fun_cat57",
+      "tiktokUrl": "https://www.tiktok.com/search?q=original%20sound%20-%20fun_cat57%20fun_cat57"
     }
   ],
   "featuredVideo": null,
   "hashtags": [
     "#bonfirenight",
-    "#fireworks",
+    "#livefest2026",
     "#piratetoken",
     "#sixthform",
-    "#schoolmemories",
+    "#exam",
     "#homework"
   ]
 }
